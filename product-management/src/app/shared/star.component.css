@@ -1,0 +1,18 @@
+.crop{
+    overflow:hidden;
+    
+    white-space: nowrap; 
+}
+
+.div{
+    cursor: pointer;
+}
+
+.span{
+    white-space: nowrap;
+}
+
+.ng-fa-icon {
+    color:blue  
+}
+

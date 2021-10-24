@@ -1,0 +1,19 @@
+<!--<div>
+ <h1>{{pageTitle}}</h1>  
+  <div>
+ 
+  </div>  
+</div> -->
+<nav class='navbar navbar-fixed-top navbar-light bg-light'>
+ 
+    <a class="navbar-brand">{{pageTitle}}</a>
+    <ul class='nav nav-pills navbar-Left '>   
+      <li><a class='nav-link' routerLink='/products'>Product LIst</a></li>
+      <li><a class='nav-link' routerLink='/about'>About</a></li>
+    </ul>
+ 
+</nav>
+<div>
+    <router-outlet></router-outlet>
+</div>
+
